@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.BRadarSbxxMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.BRadarSbxx">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="LDIP" jdbcType="VARCHAR" property="ldip" />
+    <result column="LDSBBH" jdbcType="VARCHAR" property="ldsbbh" />
+    <result column="LDJD" jdbcType="DECIMAL" property="ldjd" />
+    <result column="LDWD" jdbcType="DECIMAL" property="ldwd" />
+    <result column="ANGLE" jdbcType="DECIMAL" property="angle" />
+    <result column="KKSBBH" jdbcType="VARCHAR" property="kksbbh" />
+    <result column="ZPFX" jdbcType="VARCHAR" property="zpfx" />
+    <result column="DWMC" jdbcType="VARCHAR" property="dwmc" />
+    <result column="LDZL" jdbcType="DECIMAL" property="ldzl" />
+    <result column="LDDK" jdbcType="DECIMAL" property="lddk" />
+  </resultMap>
+</mapper>
